@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    background-color: #1F2937;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navbar{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+    
+    justify-content: space-around;   
+}
+nav{
+    padding: 20px;
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+}
+h2{
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-left: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-right: 4px;
+}
+.row{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: 130px;
+    margin-top: 80px;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    font-size: 48px;
+    border: 0 solid ;
+    color: #F9FAF8;
+}
+p{
+    font-size: 18px;
+    line-height: 15px;
+    color:#F9FAF8;
+}
+button{
+    width: 180px;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 12px;
+    outline: none;
+    margin-top: 10px;
+}
+.card{
+    width: 500px;
+    height: 230px;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    padding: 90px;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-color: #646870;
+    text-align: center;
+}
+/* .content{
+    color: #F9FAF8; 
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content: space-around;
+    margin: 50px;
+    padding-left: 12%;
+    
+} */
+ /* h1{
+    font-size: 48px;
+    color: #F9FAF8;
+} */
+/* p{
+    font-size: 18px;
+}
+.image{
+    border: 1px solid whitesmoke;
+    background-color: grey;
+    color: white;
+    display: flex;
+} */
+/* .btn{
+    background-color: #3882F6;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    color: white
+} */
+.section{
+    background-color: #F9FAF8 ;
+    color: #1F2937;
+    font-size: 36px solid;
+}
+.quote_section{
+    background-color:  #E5E7EB;
+
+}
+.action_section{
+    background-color: #F9FAF8 ;
+    
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 48px bold;
+}
