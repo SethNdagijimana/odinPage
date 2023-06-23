@@ -78,15 +78,15 @@ h1{
 }
 .card{
     width: 500px;
-    height: 230px;   
+    height: 230px;
     display: inline-block;
     color: #e4e7e1;
     border-radius: 10px;
-    /* padding: 100px; */
+    padding: 90px;
     font-size: 18px;
     box-sizing: border-box;
     margin: 50px 50px;
-    /* background-color: #72767a; */
+    background-color: #72767a;
     text-align: center;
 }
 
